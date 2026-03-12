@@ -9,7 +9,7 @@ pipeline {
     }
 
     stages {
-        satge('Clone Repo') {
+        stage('Clone Repo') {
             steps{
                 git branch: 'main', url: 'https://github.com/radhe424/CICD-Pipeline-Using-Jenkins-GitHub-Webhook-Ubuntu-AWS-EC2.git'
             }  
